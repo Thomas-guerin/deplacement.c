@@ -35,6 +35,7 @@ typedef struct chapitre chapitre;
 	chapitre chapitre10 = {"Laprincesse",20,+15,{0,1,3,4,5,6,7,8,9}};
 	
 printf("%s\n",chapitre1);
+printf("ATTENTION , ce jeu utilise un systeme de sauvegarde basé sur votre mémoire , cordialement\n");
 printf("Bonjour aventurier , vous voici dans l'Initiation, choisissez votre destination . Voulez vous aller vers Bordemer ou Vertpré ?\n");
 printf("Tapez 1 pour Bordemer ou 2 pour Vertpré\n");
 scanf("%d" ,&choix); 
@@ -52,6 +53,12 @@ if (vie<0)
 {
 	printf("Vous êtes mort\n");
 }
+if ( argent<32) {
+	printf("Vous ne pouvez pas aller au chapitre 32 ! Attention je vous surveille !\n");
+
+	printf(" Prenez plutot ce chemin\n");
+}
+
 printf("Ou souhaitez vous aller maintenant ? \n");
 
 
