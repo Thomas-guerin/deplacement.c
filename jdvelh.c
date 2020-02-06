@@ -4,7 +4,6 @@
 
 
 // choix joueur 
-	int choix
 	
 	struct chapitre {
 
@@ -13,6 +12,8 @@
 		int soin;
 		int tabchap[10];
 };
+	int choix=0;
+
 int tab[10] = {0,1,2,3,4,5,6,7,8,9}
 typedef struct chapitre chapitre;
 
@@ -33,7 +34,7 @@ typedef struct chapitre chapitre;
 printf("%s\n",chapitre1);
 printf("Bonjour aventurier , vous voici dans l'Initiation, choisissez votre destination . Voulez vous aller vers Bordemer ou Vertpré ?\n");
 printf("Tapez 1 pour Bordemer ou 2 pour Vertpré\n");
-scanf("%d" ,%choix); 
+scanf("%d" ,&choix); 
 	if ( choix==1)
 	{
 		printf("Bienvenu a Bordemer ! \n");
@@ -45,6 +46,7 @@ scanf("%d" ,%choix);
 		printf("Vous êtes au %s, vous avez %d or ; votre niveau de vie : %d , acces chapitres : %d \n",chapitre 2 );
 	}
 
-printf
+printf("Ou souhaitez vous aller maintenant ? \n");
+scanf('%s', chapitre)
 
 
