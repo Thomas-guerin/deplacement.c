@@ -3,16 +3,11 @@
 #include <string.h>
 
 
-// choix joueur/sa vie/son pécule 
+// choix joueur 
 	int choix= 0;
 	int vie=100;
 	int argent=10;
-<<<<<<< Updated upstream
-	
-=======
 
-//structure de composition des chapitres
->>>>>>> Stashed changes
 	struct chapitre {
 
 		char description;
@@ -21,13 +16,13 @@
 		int tabchap[10];
 };
 	
-//tableau de chapitres
+
 int tab[10] = {0,1,2,3,4,5,6,7,8,9}
 typedef struct chapitre chapitre;
 
 	int main() 
 {
-	//sélection de chapitre 
+
 	chapitre chapitre1 = {"Initiation",5,+20,{1,2,3,4,5,6,7,8,9}};
 	chapitre chapitre2 = {"Lataverne",-5,2,{0,2,3,4,5,6,7,8,9}};
 	chapitre chapitre3 = {"Larencontre",20,+5,{0,1,3,4,5,6,7,8,9}};
@@ -53,15 +48,10 @@ scanf("%d" ,&choix);
 		printf("Bienvenu a Vertpré ! \n");
 		printf("Vous êtes au %s, vous avez %d or ; votre niveau de vie : %d , acces chapitres : %d \n",chapitre 2 );
 	}
-<<<<<<< Updated upstream
-
-=======
-//condition de game over
 if (vie<0)
 {
 	printf("Vous êtes mort\n");
 }
->>>>>>> Stashed changes
 printf("Ou souhaitez vous aller maintenant ? \n");
 
 
