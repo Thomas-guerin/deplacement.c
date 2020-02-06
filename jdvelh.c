@@ -8,6 +8,11 @@
 	int vie=100;
 	int argent=10;
 
+<<<<<<< Updated upstream
+=======
+//structure de composition des chapitres
+
+>>>>>>> Stashed changes
 	struct chapitre {
 
 		char description;
@@ -48,6 +53,12 @@ scanf("%d" ,&choix);
 		printf("Bienvenu a Vertpré ! \n");
 		printf("Vous êtes au %s, vous avez %d or ; votre niveau de vie : %d , acces chapitres : %d \n",chapitre 2 );
 	}
+<<<<<<< Updated upstream
+=======
+
+
+//condition de game over
+>>>>>>> Stashed changes
 if (vie<0)
 {
 	printf("Vous êtes mort\n");
